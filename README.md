@@ -1,0 +1,4 @@
+# Location-optimiser
+This project seeks to help movers answer the question: Is it better to live in a 'feeder town' where rent is cheaper but the daily commute is longer, or is it worth the premium to live in the city?
+If you have ever had to relocate to start a job in a new city, then you know it can be difficult to optimise for every variable when deciding where to live.
+This project aims to streamline this search by automating the collection of rental property location and price data by scraping from rightmove.co.uk and automating the collection of commute time data using Google's Directions Matrix API and Google's Geocoding API. I will then use linear optimisation techniques to narrow down the search to a refined list of properties which can then reasonably be evaluated manually, and provide some simple data visualisations.
